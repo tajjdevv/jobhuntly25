@@ -87,7 +87,7 @@ const Nav = () => {
                     </div>
                     <div className='search w-full small:w-auto relative shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] justify-between big:flex-row gap-5 flex flex-col p-4 bg-white'>
                         <div className='ser items-center pl-4 pr-4 flex'>
-                            <img className='ser w-4 h-4 ' src={search} alt='' />
+                            <img className='ser w-4 h-4 mr-4' src={search} alt='' />
                             <input
                                 placeholder='Job title or keyword'
                                 className='sear font-Epilogue outline-none text-customSer text-base pl-2 big:w-43 w-full border-b-2 border-rgba(124, 132, 147, 1)'
@@ -97,7 +97,7 @@ const Nav = () => {
                             />
                         </div>
                         <div className='loca items-center pl-4 pr-4 flex'>
-                            <img className='loc w-4 h-4 ' src={Location} alt='' />
+                            <img className='loc w-4 h-4 mr-4' src={Location} alt='' />
                             <select
                                 className='sel font-Epilogue border-b-2 border-rgba(124, 132, 147, 1) pr-12 text-customeWhitee pl-2 big:w-43 w-full flex'
                                 name='gender'
